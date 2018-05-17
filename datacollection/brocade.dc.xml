@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<datacollection-group name="Brocade">
+<datacollection-group xmlns="https://xmlns.opennms.org/xsd/config/datacollection" name="Brocade">
 
     <!-- Brocade Resource Types -->
     <resourceType name="swFCPortIndex" label="Brocade Fibre Channel Port"
@@ -28,5 +27,4 @@
             <includeGroup>brocade-switch-fctable</includeGroup>
         </collect>
     </systemDef>
-
 </datacollection-group>
